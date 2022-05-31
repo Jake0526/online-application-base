@@ -1,0 +1,8 @@
+.meteor/local
+.meteor/desktop-build/
+.eslintrc.json
+.eslintrc
+node_modules/
+packages/
+.deploy/
+public/

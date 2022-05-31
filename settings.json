@@ -1,0 +1,69 @@
+{
+    "public": {
+        "template": {
+            "app": "SmartAdmin",
+            "appName": "SmartAdmin WebApp",
+            "appFlavor": "SmartAdmin WebApp",
+            "appFlavorSubscript": "",
+            "user": "Dr. Codex Lantern",
+            "email": "drlantern@gotbootstrap.com",
+            "twitter": "codexlantern",
+            "avatar": "avatar-admin.png",
+            "version": "4.5.1",
+            "bs4v": "4.5",
+            "logo": "logo.png",
+            "logoM": "logo.png",
+            "copyright": "2020 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-primary fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>",
+            "copyrightInverse": "2020 © SmartAdmin by&nbsp;<a href='https://www.gotbootstrap.com' class='text-white opacity-40 fw-500' title='gotbootstrap.com' target='_blank'>gotbootstrap.com</a>",
+            "iconPrefix": "fal",
+            "layoutSettings": true,
+            "chatInterface": true,
+            "shortcutMenu": true,
+            "appLayoutShortcut": true,
+            "appShortcutModal": true,
+            "appHeader": true,
+            "appFooter": true,
+            "appSidebar": true,
+            "productionReady": false,
+            "GOOGLE_ANALYTICS_ID": ""
+        },
+        "hydra": {
+            "admin": "https://staging.admin.sso.nha.gov.ph"
+        },
+        "gatewayUrl": "https://staging.cos.pims.nha.gov.ph/cos/graphql"
+    },
+    "private": {
+        "hydra": {
+            "admin": "https://staging.admin.sso.nha.gov.ph"
+        },
+        "pimsMySQL":{
+            "config":{
+                "host": "172.16.10.62",
+                "port": "3306",
+                "user": "staging_pims",
+                "password": "p1iiiz_D13ST4J3"
+            }
+        },
+        "rolesManagementMySQL":{
+            "config":{
+                "host": "172.16.10.62",
+                "port": "3306",
+                "user": "staging_roles",
+                "password": "4r13ak_D13ST4J3"
+            }
+        },
+        "gatewayUrl": "https://staging.cos.pims.nha.gov.ph/cos/graphql"
+    },
+    "ssoAdministrator": {
+        "loginProvider": "https://staging.accounts.nha.gov.ph",
+        "hydraAdmin": "https://staging.admin.sso.nha.gov.ph",
+        "authorizationURL": "https://staging.sso.nha.gov.ph/oauth2/auth",
+        "tokenURL": "https://staging.sso.nha.gov.ph/oauth2/token",
+        "clientID": "3ad2af35-c065-1f95-53d4-fdfa5e400d51",
+        "clientSecret": "GogiVszFgS",
+        "callbackURL": "http://localhost:4000/callback",
+        "host": "http://localhost:4000",
+        "scope": "local",
+        "clientName": "localhost-4000"
+    }
+}

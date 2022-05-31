@@ -1,0 +1,17 @@
+.no-side{
+    border-left: 0px;
+    border-right: 0px;
+}
+
+hr{
+    border-top: 3px solid #A4ABA9;
+    margin-top: 0px;
+}
+
+/* .swal2-container {
+    z-index: 3100 !important;
+} */
+
+.select2-dropdown {  
+    z-index: 3200 !important;
+}
